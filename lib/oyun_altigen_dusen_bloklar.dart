@@ -82,7 +82,7 @@ final altigenDusenConfig = GameConfig(
       'Xoay lục giác, ghép màu!',
       'Paikutin ang hexagon, pagtugmain ang kulay!',
     ],
-  seedColor: const Color(0xFFEC407A),
+  seedColor: const Color(0xFFC24E7A),
   icon: Icons.change_history_rounded,
   rules: HexFallRules(),
   buildPlay: (ctx) => buildHexFallStage(ctx, (ctx.generated as GeneratedLevel<HexFallLevel>).puzzle),
